@@ -1,15 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Container, Navbar, Nav, Form, NavDropdown, FormControl, Button  } from 'react-bootstrap';
-import Image from './images/pexels-cottonbro-4098369.jpg'
 
-
-const styles = {
-  bgImage: {
-   
-      backgroundImage: `url(${Image})`
-  }
-};
 
 function App() {
   
