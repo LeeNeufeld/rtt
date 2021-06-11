@@ -1,31 +1,32 @@
 
 import './App.css';
 import { Container, Navbar, Nav, Form, NavDropdown, FormControl, Button  } from 'react-bootstrap';
-
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import MeetRose from './pages/MeetRose';
+import FAQ from './pages/FAQ';
+import ContactUs from './pages/ContactUs';
+import Footer from './components/Footer';
 
 function App() {
   
   return (
     
-     
-    <Navbar bg="light" expand="lg">
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
-      </Nav>
-      
-    </Navbar.Collapse>
-  </Navbar>
+    <div className='App'>
+      <NavBar/>
+    <Router>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/home' component={Home} />
+      <Route exact path='/meetrose' component={MeetRose} />
+      <Route exact path='/contactus' component={ContactUs} />
+      <Route exact path='/services' component={Services} />
+      <Route exact path='/faq' component={FAQ} />
+    </Router>
+    <Footer/>
+  </div>
+
     
     
   );
