@@ -3,7 +3,7 @@ import React from 'react'
 function Footer(){
 
     return(
-        <footer className='footer' style={{backgroundColor:'black'}}>
+        <footer className='footer' >
             <div className='empty-container'></div>
             <div className='container'>
                 <a>test</a>
