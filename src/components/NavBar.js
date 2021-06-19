@@ -7,7 +7,7 @@ function NavBar() {
     return (
       
        
-      <Navbar style={{backgroundColor:'#AEBDCC'}} expand="lg" sticky='top'>
+      <Navbar className='NavColor' style={{backgroundColor:'#AEBDCC'}} expand="lg" sticky='top'>
       <a className='brand' style={{zIndex:3}} href="/home"><img style={{maxWidth:'150px'}} src={RTTLogoT}/></a>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

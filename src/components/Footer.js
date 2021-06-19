@@ -8,25 +8,12 @@ function Footer(){
             <div className='empty-container'></div>
             <Container fluid className='mt-3 mb-3 d-flex justify-content-center'>
                 <Row >
-                    <Col>
-                    <Row >
-                        
-                        <MdPhonelinkRing/><a href="tel:8252500618" className='ml-2'>825-250-0618</a> 
-                    </Row>
-                    <Row>
-                    <MdBusiness/><a className='ml-2 text-wrap text-left' style={{maxWidth:'220px'}} href='/contactus'>#250, 5010 Richard Road SW Calgary, Alberta T3E 6L1</a>
-                        
-                    </Row>
+                    <Col xs='12' md='6' >   
+                        <MdPhonelinkRing size='15pt' fill='rgba(0,0,0,.5)' className='mb-2' /><a href="tel:8252500618" style={{color:'rgba(0,0,0,.5)'}} className='ml-2'>825-250-0618</a> 
                     </Col>
-                    <Col>
-                    <Row>
-                    <MdEmail/> <a  href='/contactus'>rose.thatcher.therapy@gmail.com</a>
-                    </Row>
-                    <Row>
-                        <MdWifiTethering/><a className='ml-2' href='/home'>www.RoseThatcherTherapy.com</a> 
-                    </Row>
-
-                    </Col>
+                    <Col xs='12' md='6'>
+                        <MdBusiness size='15pt' fill='rgba(0,0,0,.5)' className='mb-2' /><a className='ml-2 text-wrap text-left' style={{maxWidth:'220px',color:'rgba(0,0,0,.5)'}} href='/contactus'>#250, 5010 Richard Road SW Calgary, Alberta T3E 6L1</a>
+                    </Col>    
                 </Row>
             </Container>
         </footer>
