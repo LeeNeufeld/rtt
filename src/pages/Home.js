@@ -9,12 +9,12 @@ function Home() {
         <Row xs="12" className="d-flex justify-content-center">
           <img className="img-fluid" alt="Responsive image" src={RTTLogoT} />
         </Row>
-        <h3 className="d-flex justify-content-center">Welcome!</h3>
+        <h2 className="d-flex justify-content-center">Welcome!</h2>
         <Row className="d-flex justify-content-center text">
           Inhale relief, exhale troubling thoughts, improved mental health
           happens one calm breath at a time.
         </Row>
-        <h3 className="d-flex justify-content-center">Mission</h3>
+        <h2 className="d-flex justify-content-center mt-4">Mission</h2>
         <Row className="d-flex justify-content-center text">
           Therapy is safe space where people can show up as they are, find
           relief from judgment and expect an attentive and empathetic presence.
@@ -25,8 +25,8 @@ function Home() {
           relationship; together let’s step into vulnerability and work towards
           your best life.
         </Row>
-        <Row className="d-flex justify-content-start text ">Covid 19</Row>
-        <Row className="d-flex justify-content-center text text-left">
+        <h2 className="d-flex justify-content-center mt-4 ">Covid 19</h2>
+        <Row className="d-flex justify-content-center text ">
           To ensure we are doing our part to be health conscious while still
           offering excellent service, we are offering both virtual and in-person
           sessions. Cleaning protocols between sessions are being adhered to, as

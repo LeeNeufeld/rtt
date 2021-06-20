@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
 body,
 html {
   min-height: 100%;
   margin: 0;
-  font-family: "Dancing Script", cursive !important;
+  font-family: "Courgette", cursive !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -17,13 +19,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
   color: black;
 }
 .text {
-  font-weight: 700;
+  font-weight: 500 !important;
   opacity: 1;
   color: black;
+  font-size: 17pt;
 }
 .footer {
   flex-shrink: 0;
