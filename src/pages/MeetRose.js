@@ -7,7 +7,7 @@ function MeetRose() {
       <Container>
         <h1>Meet Rose</h1>
         <Row>
-          <img className="img-fluid" alt="Responsive image" src={Rose} />
+          <img className="img-fluid" alt="Responsive" src={Rose} />
         </Row>
         <Row>
           Hi! I’m Rose Thatcher and I am a local therapist offering counselling

@@ -1,19 +1,6 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Form,
-  NavDropdown,
-  FormControl,
-  Button,
-} from "react-bootstrap";
-import {
-  MdPhonelinkRing,
-  MdEmail,
-  MdBusiness,
-  MdWifiTethering,
-} from "react-icons/md";
+import { Container, Row, Col } from "react-bootstrap";
+import { MdPhonelinkRing, MdBusiness } from "react-icons/md";
 function Footer() {
   return (
     <footer className="main-footer">
