@@ -10,12 +10,12 @@ function Home() {
           <img className="img-fluid" alt="Responsive image" src={RTTLogoT} />
         </Row>
         <h2 className="d-flex justify-content-center">Welcome!</h2>
-        <Row className="d-flex justify-content-center text">
+        <Row className="d-flex justify-content-center text pr-3 pl-3">
           Inhale relief, exhale troubling thoughts, improved mental health
           happens one calm breath at a time.
         </Row>
         <h2 className="d-flex justify-content-center mt-4">Mission</h2>
-        <Row className="d-flex justify-content-center text">
+        <Row className="d-flex justify-content-center text pr-3 pl-3">
           Therapy is safe space where people can show up as they are, find
           relief from judgment and expect an attentive and empathetic presence.
           At Rose Thatcher Therapy, you will find a waiting sounding board in
@@ -26,7 +26,7 @@ function Home() {
           your best life.
         </Row>
         <h2 className="d-flex justify-content-center mt-4 ">Covid 19</h2>
-        <Row className="d-flex justify-content-center text ">
+        <Row className="d-flex justify-content-center text pb-3 pr-3 pl-3">
           To ensure we are doing our part to be health conscious while still
           offering excellent service, we are offering both virtual and in-person
           sessions. Cleaning protocols between sessions are being adhered to, as
