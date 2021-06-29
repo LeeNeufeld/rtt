@@ -4,7 +4,9 @@ function FAQ() {
   return (
     <div className="faqBG">
       <Container>
-        <h1>FAQ</h1>
+        <Row xs="12" className="d-flex justify-content-center pt-5">
+          <h1>FAQ</h1>
+        </Row>
         <Row>
           How much does therapy cost? $170 per 60 minute session. A receipt will
           be provided.
