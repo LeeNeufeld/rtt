@@ -36,8 +36,9 @@ function Services() {
           objectives, and to arrange for scheduling and fees.
         </Row>
         <hr />
-        <Row className="d-flex justify-content-center text pr-3 pl-3 mb-5">
-          <Col>
+        <Row className="d-flex justify-content-center text pr-3 pl-3 ">
+          <Col xs="12" sm="12" md="6">
+            <hr />
             <h3>Individual Therapy </h3>
             <hr />
             Individual Therapy is available to help you identify, address and
@@ -47,7 +48,9 @@ function Services() {
             origin issues, problematic eating, past trauma, or issues with
             confidence.
           </Col>
-          <Col>
+
+          <Col xs="12" sm="12" md="6">
+            <hr />
             <h3>Couples Therapy </h3>
             <hr />
             Couples Therapy is an excellent option if you are finding your
@@ -63,7 +66,8 @@ function Services() {
         </Row>
         <hr />
         <Row className="d-flex justify-content-center text pr-3 pl-3">
-          <Col>
+          <Col xs="12" sm="12" md="6">
+            <hr />
             <h3>Family Therapy </h3>
             <hr />
             Family Therapy is a gateway for better communication, understanding
@@ -77,7 +81,8 @@ function Services() {
             is designed to improve the overall functionality of home life and
             help bring joy back into family time.
           </Col>
-          <Col>
+          <Col xs="12" sm="12" md="6">
+            <hr />
             <h3>Adolescent Therapy</h3>
             <hr />
             Being a teen these days is harder than ever! Therapy for
