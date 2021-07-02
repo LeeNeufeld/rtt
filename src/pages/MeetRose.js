@@ -10,32 +10,34 @@ function MeetRose() {
         </Row>
         <Row>
           <Col>
-            <img className="img-fluid" alt="Responsive" src={Rose} />
-          </Col>
-          <Col className="d-flex justify-content-center  ">
-            Hi! I’m Rose Thatcher and I am a local therapist offering
-            counselling services to individuals, couples, families and
-            adolescents in the Calgary area. Congratulations on being brave and
-            taking the first step to bettering your mental health. In a world
-            that is often too loud and busy, it is easy to fall into thought
-            patterns that you are lacking; as a therapist, it is my role to help
-            you shift that narrative from deficit to plenty. I believe mental
-            health operates on a continuum and that is reasonable and expected
-            that all of us will struggle with our emotions from time to time. In
-            the current climate we are facing, people are experiencing
-            unprecedented amounts of stress, isolation and relationship
-            breakdown. As a therapist my role is to create a safe and empathetic
-            space for you to be vulnerable and show up as your authentic self.
-            No matter what the issue is you are facing, you can trust that
-            together we will come to understand the problem, learn skills to
-            help you manage distress, quiet troubling thoughts and adapt your
-            reactions to the problem. My formal education and training has
-            rendered me able to practice using various treatment modalities that
-            we can tailor to meet your unique treatment goals.
+            <img className=" img-fluid  imgW " alt="Responsive" src={Rose} />
+
+            <div className="text-left  text2  ">
+              Hi! I’m Rose Thatcher and I am a local therapist offering
+              counselling services to individuals, couples, families and
+              adolescents in the Calgary area. Congratulations on being brave
+              and taking the first step to bettering your mental health. In a
+              world that is often too loud and busy, it is easy to fall into
+              thought patterns that you are lacking; as a therapist, it is my
+              role to help you shift that narrative from deficit to plenty. I
+              believe mental health operates on a continuum and that is
+              reasonable and expected that all of us will struggle with our
+              emotions from time to time. In the current climate we are facing,
+              people are experiencing unprecedented amounts of stress, isolation
+              and relationship breakdown. As a therapist my role is to create a
+              safe and empathetic space for you to be vulnerable and show up as
+              your authentic self. No matter what the issue is you are facing,
+              you can trust that together we will come to understand the
+              problem, learn skills to help you manage distress, quiet troubling
+              thoughts and adapt your reactions to the problem. My formal
+              education and training has rendered me able to practice using
+              various treatment modalities that we can tailor to meet your
+              unique treatment goals.
+            </div>
           </Col>
         </Row>
 
-        <Row className="d-flex justify-content-center text pr-3 pl-3 mb-5">
+        <Row className="d-flex justify-content-center text2 text-left pr-3 pl-3 pb-5">
           I am a trained psychotherapist with a Masters degree in clinical
           Social Work from the University of Calgary. I have also completed
           relevant certificates in Cognitive Behavioural Therapy (CBT) and
