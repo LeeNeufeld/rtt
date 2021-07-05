@@ -123,3 +123,16 @@ h6 {
   min-height: 100vh;
   position: relative;
 }
+
+input {
+  width: 600px;
+}
+textarea {
+  height: 10em;
+  width: 600px;
+}
+
+div[role="alert"] {
+  color: red;
+  margin-top: 1em;
+}
