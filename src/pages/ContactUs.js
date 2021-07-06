@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-
+import Map from "../components/Map";
 import ContactForm from "../components/ContactForm";
 
 //  TODO: -get map png, build email form
@@ -17,6 +17,8 @@ function ContactUs() {
           #250, 5010 Richard Road SW Calgary, Alberta T3E 6L1 Web:
           www.RoseThatcherTherapy.com
         </Row>
+
+        <Map />
 
         <ContactForm />
       </Container>
