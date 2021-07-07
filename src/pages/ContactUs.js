@@ -21,19 +21,27 @@ function ContactUs() {
             sm="12"
             md="6"
           >
-            <ul style={{ listStyleType: "none" }} className="ml-n4">
+            <ul style={{ listStyleType: "none" }} className="ml-n3 p-3">
               <li className="text3">
-                <MdPhonelinkRing /> 825-250-0618
+                <MdPhonelinkRing /> <a href="tel:8252500618">825-250-0618</a>
               </li>
               <li className="text3">
-                <MdEmail /> rose.thatcher.therapy@gmail.com
+                <MdEmail />{" "}
+                <a href="mailto:rose.thatcher.therapy@gmail.com">
+                  rose.thatcher.therapy@gmail.com
+                </a>
               </li>
               <li className="text3">
-                <MdBusiness /> #250, 5010 Richard Road SW Calgary, Alberta T3E
-                6L1
+                <MdBusiness />{" "}
+                <a
+                  target="_blank"
+                  href="https://www.google.ca/maps/place/5010+Richard+Rd+SW+%23250,+Calgary,+AB+T3E+6L1/@51.0092625,-114.1306256,17z/data=!3m1!4b1!4m5!3m4!1s0x537171ea950c0acf:0x773094f42cbe1e62!8m2!3d51.0092591!4d-114.1284369"
+                >
+                  #250, 5010 Richard Road SW Calgary, Alberta T3E 6L1
+                </a>
               </li>
               <li className="text3">
-                <MdWifi /> www.RoseThatcherTherapy.com
+                <MdWifi /> <a href="/">www.RoseThatcherTherapy.com</a>
               </li>
             </ul>
           </Col>

@@ -22,7 +22,7 @@ function Services() {
           <h3>Treatment Modalities Available</h3>
         </Row>
         <hr />
-        <Row className="d-flex justify-content-center text pr-3 pl-3 mb-5">
+        <Row className="d-flex justify-content-center text2 pr-5  mb-5">
           <ul style={{ listStyleType: "none" }}>
             <li>Cognitive Behavioural Therapy (CBT)</li>
             <li>Emotion Focused Therapy (EFT)</li>
@@ -31,6 +31,8 @@ function Services() {
             <li>Narrative Therapy</li>
             <li>Solution-Focused</li>
           </ul>
+        </Row>
+        <Row className="d-flex justify-content-center text pr-3 pl-3 mb-3">
           Therapy Free 15 minute consultation prior to each session. This time
           is used to identify the primary reason for seeking therapy, therapy
           objectives, and to arrange for scheduling and fees.

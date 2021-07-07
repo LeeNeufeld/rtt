@@ -56,6 +56,14 @@ h6 {
   font-size: 12pt;
   padding: auto;
 }
+.text4 {
+  text-align: left;
+  font-weight: 650 !important;
+  opacity: 1;
+  color: black;
+  font-size: 14pt;
+  padding: auto;
+}
 
 .imgW {
   max-width: 600px !important;

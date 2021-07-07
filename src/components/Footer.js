@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { MdPhonelinkRing, MdBusiness } from "react-icons/md";
+import { MdPhonelinkRing, MdBusiness, MdEmail } from "react-icons/md";
 function Footer() {
   return (
     <footer className="main-footer">
       <Container className=" d-flex justify-content-center">
-        <Row xs="12">
-          <Col xs="12" md="6">
+        <Row xs="12" className="m-3">
+          <Col xs="12" lg="4">
             <MdPhonelinkRing
               size="15pt"
               fill="rgba(0,0,0,.5)"
@@ -20,7 +20,7 @@ function Footer() {
               825-250-0618
             </a>
           </Col>
-          <Col xs="12" md="6">
+          <Col xs="12" lg="4">
             <MdBusiness size="15pt" fill="rgba(0,0,0,.5)" className="mb-2" />
             <a
               className="ml-2 text-wrap text-left"
@@ -28,6 +28,16 @@ function Footer() {
               href="/contactus"
             >
               #250, 5010 Richard Road SW Calgary, Alberta T3E 6L1
+            </a>
+          </Col>
+          <Col xs="12" lg="4">
+            <MdEmail size="15pt" fill="rgba(0,0,0,.5)" />
+            <a
+              className="ml-2 text-wrap text-left"
+              style={{ color: "rgba(0,0,0,.5)" }}
+              href="/contactus"
+            >
+              rose.thatcher.therapy@gmail.com
             </a>
           </Col>
         </Row>
