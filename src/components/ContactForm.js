@@ -35,6 +35,9 @@ const ContactForm = () => {
   return (
     <div>
       <Form onSubmit={onSubmit}>
+        <Row className="d-flex justify-content-center">
+          <h3>Email Us Your Inquiry</h3>
+        </Row>
         <Row className="pl-2 pr-2">
           <Form.Control
             className="mb-2"

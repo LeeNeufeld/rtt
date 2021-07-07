@@ -6,7 +6,7 @@ function Map() {
   return (
     <StaticGoogleMap
       center="51.00938328783789, -114.12850715912262"
-      size="400x400"
+      size="450x450"
       className="img-fluid"
       apiKey="AIzaSyAGKB6bMblKEPFx0N0X9F_-IUDt4_9ENEE"
       zoom="17"
