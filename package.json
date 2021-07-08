@@ -1,5 +1,6 @@
 {
   "name": "rtt",
+  "homepage": "http://rosethatchertherapy.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
