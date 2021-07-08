@@ -19,7 +19,7 @@ function Services() {
           enough to optimistically approach change.
         </Row>
         <Row className="d-flex justify-content-center text pr-3 pl-3 mb-3">
-          <h3>Treatment Modalities Available</h3>
+          <h4>Treatment Modalities Available</h4>
         </Row>
         <hr />
         <Row className="d-flex justify-content-center text2 pr-5  mb-5">
@@ -29,19 +29,19 @@ function Services() {
             <li>Mindfulness</li>
             <li>Dialectical Behaviour Therapy (Skills, DBT)</li>
             <li>Narrative Therapy</li>
-            <li>Solution-Focused</li>
+            <li>Solution-Focused Therapy</li>
           </ul>
         </Row>
         <Row className="d-flex justify-content-center text pr-3 pl-3 mb-3">
-          Therapy Free 15 minute consultation prior to each session. This time
-          is used to identify the primary reason for seeking therapy, therapy
+          Free 15 minute consultation prior to each session. This time is used
+          to identify the primary reason for seeking therapy, therapy
           objectives, and to arrange for scheduling and fees.
         </Row>
-        <hr />
+
         <Row className="d-flex justify-content-center text pr-3 pl-3 ">
           <Col xs="12" sm="12" md="6">
             <hr />
-            <h3>Individual Therapy </h3>
+            <h4>Individual Therapy $170/hr </h4>
             <hr />
             Individual Therapy is available to help you identify, address and
             make changes to important life areas that may be holding you back.
@@ -53,7 +53,7 @@ function Services() {
 
           <Col xs="12" sm="12" md="6">
             <hr />
-            <h3>Couples Therapy </h3>
+            <h4>Couples Therapy $200/hr</h4>
             <hr />
             Couples Therapy is an excellent option if you are finding your
             relationship is struggling with communication issues, missed
@@ -66,11 +66,11 @@ function Services() {
             blame and judgment at the door.
           </Col>
         </Row>
-        <hr />
+
         <Row className="d-flex justify-content-center text pr-3 pl-3">
           <Col xs="12" sm="12" md="6">
             <hr />
-            <h3>Family Therapy </h3>
+            <h4>Family Therapy $200/hr</h4>
             <hr />
             Family Therapy is a gateway for better communication, understanding
             and empathy towards the most important people in your lives. Often
@@ -85,7 +85,7 @@ function Services() {
           </Col>
           <Col xs="12" sm="12" md="6">
             <hr />
-            <h3>Adolescent Therapy</h3>
+            <h4>Adolescent Therapy $170/hr</h4>
             <hr />
             Being a teen these days is harder than ever! Therapy for
             tweens/adolescence looks to connect with the young person in a way
@@ -101,7 +101,7 @@ function Services() {
         </Row>
         <hr />
         <Row xs="12" className="d-flex justify-content-center">
-          <h3>Cost</h3>
+          <h4>Cost</h4>
         </Row>
         <hr />
         <Row className="d-flex justify-content-center text pr-3 pl-3 mb-5">
@@ -113,7 +113,7 @@ function Services() {
         </Row>
         <hr />
         <Row xs="12" className="d-flex justify-content-center">
-          <h3>Cancellation Policy</h3>
+          <h4>Cancellation Policy</h4>
         </Row>
         <hr />
         <Row className="d-flex justify-content-center text pr-3 pl-3 pb-3">

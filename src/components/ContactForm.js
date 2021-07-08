@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { init, send } from "emailjs-com";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Row, Form, Button } from "react-bootstrap";
 init("user_EJ7w4A5FKsK26PyN0Hy7i");
 
 const ContactForm = () => {

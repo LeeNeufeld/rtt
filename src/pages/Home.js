@@ -11,7 +11,7 @@ function Home() {
         </Row>
         <h2 className="d-flex justify-content-center">Welcome!</h2>
         <Row className="d-flex justify-content-center text pr-3 pl-3">
-          Inhale relief, exhale troubling thoughts, improved mental health
+          Inhale relief, exhale troubling thoughts; improved mental health
           happens one calm breath at a time.
         </Row>
         <h2 className="d-flex justify-content-center mt-4">Mission</h2>

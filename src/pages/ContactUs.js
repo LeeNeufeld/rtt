@@ -35,6 +35,7 @@ function ContactUs() {
                 <MdBusiness />{" "}
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.google.ca/maps/place/5010+Richard+Rd+SW+%23250,+Calgary,+AB+T3E+6L1/@51.0092625,-114.1306256,17z/data=!3m1!4b1!4m5!3m4!1s0x537171ea950c0acf:0x773094f42cbe1e62!8m2!3d51.0092591!4d-114.1284369"
                 >
                   #250, 5010 Richard Road SW Calgary, Alberta T3E 6L1

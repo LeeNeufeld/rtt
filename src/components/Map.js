@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
-import { StaticGoogleMap, Marker, Path } from "react-static-google-map";
+
+import { StaticGoogleMap, Marker } from "react-static-google-map";
 
 function Map() {
   return (
