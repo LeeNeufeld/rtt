@@ -34,10 +34,10 @@ h6 {
 
 .text {
   text-align: center;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   opacity: 1;
   color: black;
-  font-size: 17pt;
+  font-size: 14pt;
   padding: auto;
 }
 .text2 {
@@ -166,4 +166,11 @@ textarea {
 div[role="alert"] {
   color: red;
   margin-top: 1em;
+}
+
+.read-more-link {
+  color: blueviolet;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  cursor: pointer;
 }

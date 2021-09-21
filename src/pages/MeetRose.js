@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Rose from "../images/RoseThatcher.jpg";
 function MeetRose() {
+  const [readMore, setReadMore] = useState(false);
+
+  const moreContent = (
+    <div className="d-flex justify-content-center text2 text-left pr-3 pl-3 pb-5">
+      I am a trained psychotherapist with a Masters degree in clinical Social
+      Work from the University of Calgary. I have also completed relevant
+      certificates in Cognitive Behavioural Therapy (CBT) and Emotionally
+      Focused Therapy (EFT), as well as trained under the Gottman Institute for
+      couples therapy. I am approved by my governing body (Alberta College of
+      Social Workers) to provide advance psychosocial interventions to
+      individuals experiencing severe mental health issues. I have been working
+      in mental health since 2014 and practicing primarily with children,
+      adolescents and their families for the past 5 years. My practice style is
+      grounded in attachment-based and family systems theory. As in any
+      meaningful relationship, there needs to be a rightness of fit between the
+      client and therapist in order for trust, healing and change to be
+      achieved. I hope that together we can nurture a therapeutic relationship
+      of genuine connection and vulnerability in order to take tangible steps
+      towards improving your quality of life. I am excited and honored to be
+      part of your change-process.
+    </div>
+  );
+
+  const linkName = readMore ? "... " : "Read More... ";
+
   return (
     <div className="meetBG">
       <Container>
@@ -32,30 +57,20 @@ function MeetRose() {
               thoughts and adapt your reactions to the problem. My formal
               education and training has rendered me able to practice using
               various treatment modalities that we can tailor to meet your
-              unique treatment goals.
+              unique treatment goals.{" "}
+              <a
+                className="read-more-link"
+                onClick={() => {
+                  setReadMore(!readMore);
+                }}
+              >
+                <span>{linkName}</span>
+              </a>
             </div>
           </Col>
         </Row>
 
-        <Row className="d-flex justify-content-center text2 text-left pr-3 pl-3 pb-5">
-          I am a trained psychotherapist with a Masters degree in clinical
-          Social Work from the University of Calgary. I have also completed
-          relevant certificates in Cognitive Behavioural Therapy (CBT) and
-          Emotionally Focused Therapy (EFT), as well as trained under the
-          Gottman Institute for couples therapy. I am approved by my governing
-          body (Alberta College of Social Workers) to provide advance
-          psychosocial interventions to individuals experiencing severe mental
-          health issues. I have been working in mental health since 2014 and
-          practicing primarily with children, adolescents and their families for
-          the past 5 years. My practice style is grounded in attachment-based
-          and family systems theory. As in any meaningful relationship, there
-          needs to be a rightness of fit between the client and therapist in
-          order for trust, healing and change to be achieved. I hope that
-          together we can nurture a therapeutic relationship of genuine
-          connection and vulnerability in order to take tangible steps towards
-          improving your quality of life. I am excited and honored to be part of
-          your change-process.
-        </Row>
+        <Row>{readMore && moreContent}</Row>
       </Container>
     </div>
   );

@@ -31,7 +31,7 @@ function Home() {
           offering excellent service, we are offering both virtual and in-person
           sessions. Cleaning protocols between sessions are being adhered to, as
           is creating social distance and masking. Our intention is to make you
-          feel safe, relaxed in comfortable during session.
+          feel safe, relaxed and comfortable during session.
         </Row>
       </Container>
     </div>
