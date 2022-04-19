@@ -41,7 +41,7 @@ function Services() {
         <Row className="d-flex justify-content-center text pr-3 pl-3 ">
           <Col xs="12" sm="12" md="6">
             <hr />
-            <h4>Individual Therapy $170/hr </h4>
+            <h4>Individual Therapy $200/hr </h4>
             <hr />
             Individual Therapy is available to help you identify, address and
             make changes to important life areas that may be holding you back.
@@ -85,7 +85,7 @@ function Services() {
           </Col>
           <Col xs="12" sm="12" md="6">
             <hr />
-            <h4>Adolescent Therapy $170/hr</h4>
+            <h4>Adolescent Therapy $200/hr</h4>
             <hr />
             Being a teen these days is harder than ever! Therapy for
             tweens/adolescence looks to connect with the young person in a way
@@ -105,7 +105,7 @@ function Services() {
         </Row>
         <hr />
         <Row className="d-flex justify-content-center text pr-3 pl-3 mb-5">
-          Sessions start at $170/HR. This includes any resources, progress
+          Sessions start at $200/HR. This includes any resources, progress
           reports and collaboration with external professionals.
           <br />
           Letters for school or employers can also be provided for an additional

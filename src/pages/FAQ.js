@@ -11,7 +11,7 @@ function FAQ() {
           How much does therapy cost?
         </Row>
         <Row className="d-flex  text3 p-3">
-          $170 per 60 minute session. A receipt will be provided.
+          $200 per 60 minute session. A receipt will be provided.
         </Row>
         <hr />
         <Row className="d-flex justify-content-start text4 p-3">
