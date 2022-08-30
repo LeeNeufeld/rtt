@@ -111,9 +111,17 @@ function FAQ() {
         <Row className="d-flex justify-content-center text3 p-3">
           <span>
             {" "}
-            Please call or email to schedule an appointment. The therapist will
-            contact you within 24 hours during business days to set up an
-            appointment. Visit our <a href="/ContactUs">Contact Us </a>
+            Please call, email or{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="http://RoseThatcherTherapy.janeapp.com "
+            >
+              Click Here
+            </a>{" "}
+            to schedule an appointment. The therapist will contact you within 24
+            hours during business days to set up an appointment. Visit our{" "}
+            <a href="/ContactUs">Contact Us </a>
             {""}page to get in touch with us today!
           </span>
         </Row>

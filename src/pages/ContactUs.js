@@ -51,6 +51,19 @@ function ContactUs() {
         <Row className="d-flex justify-content-center p-3">
           <ContactForm />
         </Row>
+        <hr />
+        <Row className="d-flex justify-content-center p-3">
+          <h3>Please click the link to book an appointment</h3>
+        </Row>
+        <Row className="d-flex justify-content-center p-3">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="http://RoseThatcherTherapy.janeapp.com "
+          >
+            <h4> ** Book an appointment here ** </h4>
+          </a>
+        </Row>
       </Container>
     </div>
   );
