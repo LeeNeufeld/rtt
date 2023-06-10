@@ -18,12 +18,12 @@ function Home() {
         <Row className="d-flex justify-content-center text pr-3 pl-3">
           Therapy is safe space where people can show up as they are, find
           relief from judgment and expect an attentive and empathetic presence.
-          At Rose Thatcher Therapy, you will find a waiting sounding board in
-          which to share your troubles, encouragement in your reflection and a
-          respectful therapist to help make sense of what may feel overwhelming.
-          An authentic therapeutic alliance is at the heart of every successful
-          relationship; together let’s step into vulnerability and work towards
-          your best life.
+          At Wild Rose Therapy Services, you will find a waiting sounding board
+          in which to share your troubles, encouragement in your reflection and
+          a respectful therapist to help make sense of what may feel
+          overwhelming. An authentic therapeutic alliance is at the heart of
+          every successful relationship; together let’s step into vulnerability
+          and work towards your best life.
         </Row>
         <h2 className="d-flex justify-content-center mt-4 ">Covid 19</h2>
         <Row className="d-flex justify-content-center text pb-3 pr-3 pl-3">
