@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import RTTLogoT from "../images/RTTLogoT.png";
+import WRTSLogo from "../images/WRTSLogo.jpg";
 
 function NavBar() {
   return (
@@ -11,7 +11,7 @@ function NavBar() {
       sticky="top"
     >
       <a className="brand" style={{ zIndex: 3 }} href="/home">
-        <img style={{ maxWidth: "150px" }} alt="Responsive" src={RTTLogoT} />
+        <img style={{ maxWidth: "85px" }} alt="Responsive" src={WRTSLogo} />
       </a>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

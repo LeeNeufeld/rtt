@@ -115,7 +115,7 @@ function FAQ() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="http://RoseThatcherTherapy.janeapp.com "
+              href="www.WildRoseTherapyServices.janeapp.com"
             >
               Click Here
             </a>{" "}

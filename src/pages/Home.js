@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import RTTLogoT from "../images/RTTLogoT.png";
+import WRTSLogo from "../images/WRTSLogo.jpg";
 
 function Home() {
   return (
     <div className="homeBG">
       <Container>
-        <Row xs="12" className="d-flex justify-content-center">
-          <img className="img-fluid" alt="Responsive" src={RTTLogoT} />
+        <Row xs="12" className="d-flex justify-content-center p-5">
+          <img className="img-fluid" alt="Responsive" src={WRTSLogo} />
         </Row>
         <h2 className="d-flex justify-content-center">Welcome!</h2>
         <Row className="d-flex justify-content-center text pr-3 pl-3">

@@ -33,11 +33,11 @@ function Footer() {
           <Col xs="12" lg="4">
             <MdEmail size="15pt" fill="rgba(0,0,0,.5)" />
             <a
-              className="ml-2 text-wrap text-left"
+              className="ml-1 text-wrap text-left"
               style={{ color: "rgba(0,0,0,.5)" }}
               href="/contactus"
             >
-              rose.thatcher.therapy@gmail.com
+              hello@WildRoseTherapyServices.com
             </a>
           </Col>
         </Row>

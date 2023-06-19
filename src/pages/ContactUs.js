@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Map from "../components/Map";
-import ContactForm from "../components/ContactForm";
 import { MdPhonelinkRing, MdBusiness, MdWifi, MdEmail } from "react-icons/md";
 
 function ContactUs() {
@@ -27,8 +26,8 @@ function ContactUs() {
               </li>
               <li className="text3">
                 <MdEmail />{" "}
-                <a href="mailto:rose.thatcher.therapy@gmail.com">
-                  rose.thatcher.therapy@gmail.com
+                <a href="mailto:hello@WildRoseTherapyServices.com">
+                  hello@WildRoseTherapyServices.com
                 </a>
               </li>
               <li className="text3">
@@ -49,17 +48,13 @@ function ContactUs() {
         </Row>
         <hr />
         <Row className="d-flex justify-content-center p-3">
-          <ContactForm />
-        </Row>
-        <hr />
-        <Row className="d-flex justify-content-center p-3">
           <h3>Please click the link to book an appointment</h3>
         </Row>
         <Row className="d-flex justify-content-center p-3">
           <a
             target="_blank"
             rel="noreferrer"
-            href="http://RoseThatcherTherapy.janeapp.com "
+            href="http://RoseThatcherTherapy.janeapp.com"
           >
             <h4> ** Book an appointment here ** </h4>
           </a>
