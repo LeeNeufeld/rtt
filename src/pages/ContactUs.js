@@ -41,7 +41,7 @@ function ContactUs() {
                 </a>
               </li>
               <li className="text3">
-                <MdWifi /> <a href="/">www.RoseThatcherTherapy.com</a>
+                <MdWifi /> <a href="/">www.wildrosetherapyservices.com</a>
               </li>
             </ul>
           </Col>
